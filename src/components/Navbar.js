@@ -17,7 +17,7 @@ function Navbar(){
                 <Link className="nav-link" to="About">About Us</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link disabled">Coming Soon</Link>
+                <a className="nav-link disabled">Coming Soon</a>
               </li>
             </ul>
             <form className="d-flex" role="search">
