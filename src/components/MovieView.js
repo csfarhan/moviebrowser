@@ -22,7 +22,6 @@ const MovieView = () => {
           return <Hero text='...' />
         }
         if(movieDetails){
-          //todo deal with a missing image
           const posterPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`
           return (
             <>
